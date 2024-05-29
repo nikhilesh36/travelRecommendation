@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="travel_recommendation.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portfolio website complete</title>
+        <style>
+            body{
+                background-image: url(img/simple.jpg);
+                
+            }
+            .l-header{
+                background-image: url(img/header3.jpg);
+
+            }
+
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+        
+    </head>
+    <body>
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    
+                    <a href="#" class="nav__logo poetsen-one-regular" ><span><img src="img/flight2.png"   class="logo_img"></span>TravelBloom</a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+                        <li><input type="search" class=" nav__item search-input" id="conditionInput" placeholder="Enter a destination or keyword"></li>
+                        <li><span class="material-symbols-outlined">search</span></li>
+                        <li><button type="button" class="head" id="btnSearch">Search</button></li>&nbsp;&nbsp;
+                        <li><button type="button" class="head" id="clrSearch">Clear</button></li>
+                    </ul>
+                    
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                
+                <div class="home__data">
+                    <h1 class="home__title">Explore Your <br><span class="home__title-color"> Dream </span><br> Destination</h1>
+                    <h1 class="home__title"><span class="home__title-color and"> And </span></h1>
+                    <h1 class="home__title">Make Your <br><span class="home__title-color"> Dream </span><br> come true</h1>
+                    
+                </div>
+                
+               <div class="home__img">
+                    <div class="searchCondition">
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about section " id="about">
+                <h2 class="section-title">About Us</h2>
+
+                <div class="about__container bd-grid">
+                    <div>
+                        <h2 class="about__subtitle">Welcome to Our Company,</h2>
+                        <p class="about__text"> We are a team of passionate individuals dedicated to providing excellent services/products to our customers Our mission is to provide the best experience for people traveling to different destinations around the world
+                            Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals.
+                            Feel free to explore our website to learn more about what we offer!</p>           
+                    </div>
+                    <div class="about__img">
+                        <h2 class="about__subtitle">Our Team</h2>
+                        <div class="team">
+                            <div class="team1">
+                                <h3><span class="material-symbols-outlined">
+                                    person</span>&nbsp;Nikhilesh</h3>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nikhilesh is respnsible <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for</p><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="ceo">CEO</button>
+                            </div>
+                            <div class="team1">
+                                <h3><span class="material-symbols-outlined">
+                                    person</span>&nbsp;Abhinava</h3>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abhinava is respnsible <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for</p><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="ceo">Manager</button>
+                            </div>
+                        </div><br>
+                        <div class="team">
+                            <div class="team1">
+                                <h3><span class="material-symbols-outlined">
+                                    person</span>&nbsp;	
+                                    Adipurush</h3>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	
+                                        Adipurus is respnsible <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for</p><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="ceo">Lead</button>
+                            </div>
+                            <div class="team1">
+                                <h3><span class="material-symbols-outlined">
+                                    person</span>&nbsp;Abhimanue</h3>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abimanu is respnsible <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for</p><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="ceo">Analyst</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                                                       
+                </div>
+            </section><br>
+
+           
+            
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Us</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <button class="head1">Submit</button>
+                        
+                    </form>
+                </div>
+            </section>
+        </main>
+
+       
+        <footer class="footer">
+            <a href="#" class="poetsen-one-regular" ><img src=""   class="logo_img"></span>TravelBloom</a><br><br>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="travel_recommendation.js"></script>
+        
+    </body>
+</html>
